@@ -1,0 +1,107 @@
+.banner{
+    width: 100%;
+    height:20vh;
+   background-color: #000;
+    
+        }
+        .banner img{
+            height: 6rem;
+            width: 8rem;
+        }
+        li:hover{
+            border-bottom: 3px solid white;
+        }
+
+
+
+li a:hover{
+    text-decoration:underline;
+
+}
+
+.nav{
+    padding: 15px 16px;
+}
+.navbar{
+    width: 100%;
+    margin:auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.aana{
+    background-image: url(aanaorion.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    padding: 0 15rem;
+    font-size: 1.3rem;
+    font-style: italic;
+    text-shadow: #000;
+  
+
+}
+
+.banner .navbar h1{
+    color: white;
+  text-align: center;
+  align-items: center;
+}
+.navbar{
+    text-align: center;
+    align-items: center;
+}
+.kanxu{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    background-position: center;
+    align-items: right;
+    justify-content: center;
+    font-style: initial;
+}
+.stha{
+    font-size: 30px;
+    font-style: italic;
+    
+}
+.suta{
+    font-size: 35px;
+    font-style: italic;
+    color: #009688;
+    
+}
